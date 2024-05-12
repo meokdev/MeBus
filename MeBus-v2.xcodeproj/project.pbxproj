@@ -16,6 +16,15 @@
 		36CD050E2BF0C59E00418EE7 /* MeBus_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD050D2BF0C59E00418EE7 /* MeBus_v2Tests.swift */; };
 		36CD05182BF0C59E00418EE7 /* MeBus_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD05172BF0C59E00418EE7 /* MeBus_v2UITests.swift */; };
 		36CD051A2BF0C59E00418EE7 /* MeBus_v2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD05192BF0C59E00418EE7 /* MeBus_v2UITestsLaunchTests.swift */; };
+		36CD052D2BF0C69F00418EE7 /* BusStopData.json in Resources */ = {isa = PBXBuildFile; fileRef = 36CD052C2BF0C69F00418EE7 /* BusStopData.json */; };
+		36CD052F2BF0C6B400418EE7 /* DistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD052E2BF0C6B400418EE7 /* DistanceManager.swift */; };
+		36CD05312BF0C6C900418EE7 /* GetUserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD05302BF0C6C900418EE7 /* GetUserLocation.swift */; };
+		36CD05332BF0C6E700418EE7 /* LoadNearbyBusStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD05322BF0C6E700418EE7 /* LoadNearbyBusStops.swift */; };
+		36CD05352BF0C6F900418EE7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD05342BF0C6F900418EE7 /* LocationManager.swift */; };
+		36CD05372BF0C71200418EE7 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD05362BF0C71200418EE7 /* BottomNavBar.swift */; };
+		36CD05392BF0C73900418EE7 /* BusStopDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD05382BF0C73900418EE7 /* BusStopDetail.swift */; };
+		36CD053B2BF0C74E00418EE7 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD053A2BF0C74E00418EE7 /* FavoritesView.swift */; };
+		36CD053D2BF0C75C00418EE7 /* NearbyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD053C2BF0C75C00418EE7 /* NearbyListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,16 @@
 		36CD05132BF0C59E00418EE7 /* MeBus-v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeBus-v2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CD05172BF0C59E00418EE7 /* MeBus_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeBus_v2UITests.swift; sourceTree = "<group>"; };
 		36CD05192BF0C59E00418EE7 /* MeBus_v2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeBus_v2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36CD05282BF0C5DD00418EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		36CD052C2BF0C69F00418EE7 /* BusStopData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BusStopData.json; sourceTree = "<group>"; };
+		36CD052E2BF0C6B400418EE7 /* DistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceManager.swift; sourceTree = "<group>"; };
+		36CD05302BF0C6C900418EE7 /* GetUserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserLocation.swift; sourceTree = "<group>"; };
+		36CD05322BF0C6E700418EE7 /* LoadNearbyBusStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadNearbyBusStops.swift; sourceTree = "<group>"; };
+		36CD05342BF0C6F900418EE7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		36CD05362BF0C71200418EE7 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
+		36CD05382BF0C73900418EE7 /* BusStopDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopDetail.swift; sourceTree = "<group>"; };
+		36CD053A2BF0C74E00418EE7 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		36CD053C2BF0C75C00418EE7 /* NearbyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +117,14 @@
 		36CD04F62BF0C59C00418EE7 /* MeBus-v2 */ = {
 			isa = PBXGroup;
 			children = (
+				36CD05282BF0C5DD00418EE7 /* Info.plist */,
 				36CD04F72BF0C59C00418EE7 /* MeBus_v2App.swift */,
-				36CD04F92BF0C59C00418EE7 /* ContentView.swift */,
 				36CD04FB2BF0C59D00418EE7 /* Assets.xcassets */,
+				36CD04F92BF0C59C00418EE7 /* ContentView.swift */,
 				36CD05002BF0C59D00418EE7 /* Persistence.swift */,
+				36CD05292BF0C66500418EE7 /* Services */,
+				36CD052B2BF0C66C00418EE7 /* Components */,
+				36CD052A2BF0C66900418EE7 /* Pages */,
 				36CD05022BF0C59D00418EE7 /* MeBus_v2.xcdatamodeld */,
 				36CD04FD2BF0C59D00418EE7 /* Preview Content */,
 			);
@@ -131,6 +154,36 @@
 				36CD05192BF0C59E00418EE7 /* MeBus_v2UITestsLaunchTests.swift */,
 			);
 			path = "MeBus-v2UITests";
+			sourceTree = "<group>";
+		};
+		36CD05292BF0C66500418EE7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				36CD052C2BF0C69F00418EE7 /* BusStopData.json */,
+				36CD052E2BF0C6B400418EE7 /* DistanceManager.swift */,
+				36CD05302BF0C6C900418EE7 /* GetUserLocation.swift */,
+				36CD05322BF0C6E700418EE7 /* LoadNearbyBusStops.swift */,
+				36CD05342BF0C6F900418EE7 /* LocationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		36CD052A2BF0C66900418EE7 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				36CD053A2BF0C74E00418EE7 /* FavoritesView.swift */,
+				36CD053C2BF0C75C00418EE7 /* NearbyListView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		36CD052B2BF0C66C00418EE7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				36CD05382BF0C73900418EE7 /* BusStopDetail.swift */,
+				36CD05362BF0C71200418EE7 /* BottomNavBar.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36CD04FF2BF0C59D00418EE7 /* Preview Assets.xcassets in Resources */,
+				36CD052D2BF0C69F00418EE7 /* BusStopData.json in Resources */,
 				36CD04FC2BF0C59D00418EE7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +317,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36CD053B2BF0C74E00418EE7 /* FavoritesView.swift in Sources */,
 				36CD05042BF0C59D00418EE7 /* MeBus_v2.xcdatamodeld in Sources */,
 				36CD05012BF0C59D00418EE7 /* Persistence.swift in Sources */,
+				36CD05372BF0C71200418EE7 /* BottomNavBar.swift in Sources */,
+				36CD05392BF0C73900418EE7 /* BusStopDetail.swift in Sources */,
 				36CD04FA2BF0C59C00418EE7 /* ContentView.swift in Sources */,
 				36CD04F82BF0C59C00418EE7 /* MeBus_v2App.swift in Sources */,
+				36CD053D2BF0C75C00418EE7 /* NearbyListView.swift in Sources */,
+				36CD05352BF0C6F900418EE7 /* LocationManager.swift in Sources */,
+				36CD05312BF0C6C900418EE7 /* GetUserLocation.swift in Sources */,
+				36CD05332BF0C6E700418EE7 /* LoadNearbyBusStops.swift in Sources */,
+				36CD052F2BF0C6B400418EE7 /* DistanceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +495,7 @@
 				DEVELOPMENT_TEAM = JPHY572DDX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MeBus-v2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,6 +525,7 @@
 				DEVELOPMENT_TEAM = JPHY572DDX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MeBus-v2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
