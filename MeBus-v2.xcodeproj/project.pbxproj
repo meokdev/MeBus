@@ -160,10 +160,10 @@
 			isa = PBXGroup;
 			children = (
 				36CD052C2BF0C69F00418EE7 /* BusStopData.json */,
-				36CD052E2BF0C6B400418EE7 /* DistanceManager.swift */,
 				36CD05302BF0C6C900418EE7 /* GetUserLocation.swift */,
-				36CD05322BF0C6E700418EE7 /* LoadNearbyBusStops.swift */,
+				36CD052E2BF0C6B400418EE7 /* DistanceManager.swift */,
 				36CD05342BF0C6F900418EE7 /* LocationManager.swift */,
+				36CD05322BF0C6E700418EE7 /* LoadNearbyBusStops.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
