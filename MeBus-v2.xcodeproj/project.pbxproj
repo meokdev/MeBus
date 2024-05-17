@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36A728ED2BF64F9C0047F0DD /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A728EC2BF64F9C0047F0DD /* SearchView.swift */; };
+		36A728EF2BF65AA10047F0DD /* KeyboardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A728EE2BF65AA10047F0DD /* KeyboardState.swift */; };
+		36BFF7182BF5F1B600678921 /* SearchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BFF7172BF5F1B600678921 /* SearchManager.swift */; };
 		36CD04F82BF0C59C00418EE7 /* MeBus_v2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD04F72BF0C59C00418EE7 /* MeBus_v2App.swift */; };
 		36CD04FA2BF0C59C00418EE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CD04F92BF0C59C00418EE7 /* ContentView.swift */; };
 		36CD04FC2BF0C59D00418EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CD04FB2BF0C59D00418EE7 /* Assets.xcassets */; };
@@ -45,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36A728EC2BF64F9C0047F0DD /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		36A728EE2BF65AA10047F0DD /* KeyboardState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardState.swift; sourceTree = "<group>"; };
+		36BFF7172BF5F1B600678921 /* SearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
 		36CD04F42BF0C59C00418EE7 /* MeBus-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MeBus-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CD04F72BF0C59C00418EE7 /* MeBus_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeBus_v2App.swift; sourceTree = "<group>"; };
 		36CD04F92BF0C59C00418EE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -160,6 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				36CD052C2BF0C69F00418EE7 /* BusStopData.json */,
+				36A728EE2BF65AA10047F0DD /* KeyboardState.swift */,
+				36BFF7172BF5F1B600678921 /* SearchManager.swift */,
 				36CD05302BF0C6C900418EE7 /* GetUserLocation.swift */,
 				36CD052E2BF0C6B400418EE7 /* DistanceManager.swift */,
 				36CD05342BF0C6F900418EE7 /* LocationManager.swift */,
@@ -172,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				36CD053A2BF0C74E00418EE7 /* FavoritesView.swift */,
+				36A728EC2BF64F9C0047F0DD /* SearchView.swift */,
 				36CD053C2BF0C75C00418EE7 /* NearbyListView.swift */,
 			);
 			path = Pages;
@@ -319,6 +328,7 @@
 			files = (
 				36CD053B2BF0C74E00418EE7 /* FavoritesView.swift in Sources */,
 				36CD05042BF0C59D00418EE7 /* MeBus_v2.xcdatamodeld in Sources */,
+				36A728EF2BF65AA10047F0DD /* KeyboardState.swift in Sources */,
 				36CD05012BF0C59D00418EE7 /* Persistence.swift in Sources */,
 				36CD05372BF0C71200418EE7 /* BottomNavBar.swift in Sources */,
 				36CD05392BF0C73900418EE7 /* BusStopDetail.swift in Sources */,
@@ -327,7 +337,9 @@
 				36CD053D2BF0C75C00418EE7 /* NearbyListView.swift in Sources */,
 				36CD05352BF0C6F900418EE7 /* LocationManager.swift in Sources */,
 				36CD05312BF0C6C900418EE7 /* GetUserLocation.swift in Sources */,
+				36A728ED2BF64F9C0047F0DD /* SearchView.swift in Sources */,
 				36CD05332BF0C6E700418EE7 /* LoadNearbyBusStops.swift in Sources */,
+				36BFF7182BF5F1B600678921 /* SearchManager.swift in Sources */,
 				36CD052F2BF0C6B400418EE7 /* DistanceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -56,7 +56,7 @@ struct BusStopDetailView: View {
                     }
                 }
             }
-            .navigationTitle(busStopName)
+            .navigationTitle(busStopName).navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(trailing:
                 Button(action: {
                     fetchBusArrivalData()
