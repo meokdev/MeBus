@@ -37,5 +37,5 @@ func Search_fuzzySearch(searchText: String, busStops: [Search_BusStop]) -> [Sear
     let filteredBusStops = busStops.filter { busStop in
         busStop.Description.localizedCaseInsensitiveContains(searchText) || busStop.RoadName.localizedCaseInsensitiveContains(searchText)
     }
-    return Array(filteredBusStops.prefix(6))  // Return the first 5 closest matches
+    return Array(filteredBusStops.prefix(6))  // Return the first x closest matches
 }

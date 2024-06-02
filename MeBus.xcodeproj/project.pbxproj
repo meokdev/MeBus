@@ -51,16 +51,16 @@
 		36A728EC2BF64F9C0047F0DD /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		36A728EE2BF65AA10047F0DD /* KeyboardState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardState.swift; sourceTree = "<group>"; };
 		36BFF7172BF5F1B600678921 /* SearchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchManager.swift; sourceTree = "<group>"; };
-		36CD04F42BF0C59C00418EE7 /* MeBus-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MeBus-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CD04F42BF0C59C00418EE7 /* MeBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CD04F72BF0C59C00418EE7 /* MeBus_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeBus_v2App.swift; sourceTree = "<group>"; };
 		36CD04F92BF0C59C00418EE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36CD04FB2BF0C59D00418EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36CD04FE2BF0C59D00418EE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		36CD05002BF0C59D00418EE7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		36CD05032BF0C59D00418EE7 /* MeBus_v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeBus_v2.xcdatamodel; sourceTree = "<group>"; };
-		36CD05092BF0C59E00418EE7 /* MeBus-v2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeBus-v2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CD05092BF0C59E00418EE7 /* MeBusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeBusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CD050D2BF0C59E00418EE7 /* MeBus_v2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeBus_v2Tests.swift; sourceTree = "<group>"; };
-		36CD05132BF0C59E00418EE7 /* MeBus-v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MeBus-v2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CD05132BF0C59E00418EE7 /* MeBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CD05172BF0C59E00418EE7 /* MeBus_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeBus_v2UITests.swift; sourceTree = "<group>"; };
 		36CD05192BF0C59E00418EE7 /* MeBus_v2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeBus_v2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		36CD05282BF0C5DD00418EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -113,9 +113,9 @@
 		36CD04F52BF0C59C00418EE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36CD04F42BF0C59C00418EE7 /* MeBus-v2.app */,
-				36CD05092BF0C59E00418EE7 /* MeBus-v2Tests.xctest */,
-				36CD05132BF0C59E00418EE7 /* MeBus-v2UITests.xctest */,
+				36CD04F42BF0C59C00418EE7 /* MeBus.app */,
+				36CD05092BF0C59E00418EE7 /* MeBusTests.xctest */,
+				36CD05132BF0C59E00418EE7 /* MeBusUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,14 +123,14 @@
 		36CD04F62BF0C59C00418EE7 /* MeBus-v2 */ = {
 			isa = PBXGroup;
 			children = (
-				36CD05282BF0C5DD00418EE7 /* Info.plist */,
 				36CD04F72BF0C59C00418EE7 /* MeBus_v2App.swift */,
-				36CD04FB2BF0C59D00418EE7 /* Assets.xcassets */,
+				36CD05282BF0C5DD00418EE7 /* Info.plist */,
 				36CD04F92BF0C59C00418EE7 /* ContentView.swift */,
 				36CD05002BF0C59D00418EE7 /* Persistence.swift */,
 				36CD05292BF0C66500418EE7 /* Services */,
 				36CD052B2BF0C66C00418EE7 /* Components */,
 				36CD052A2BF0C66900418EE7 /* Pages */,
+				36CD04FB2BF0C59D00418EE7 /* Assets.xcassets */,
 				36CD05022BF0C59D00418EE7 /* MeBus_v2.xcdatamodeld */,
 				36CD04FD2BF0C59D00418EE7 /* Preview Content */,
 			);
@@ -165,13 +165,13 @@
 		36CD05292BF0C66500418EE7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				36CD052C2BF0C69F00418EE7 /* BusStopData.json */,
 				36A728EE2BF65AA10047F0DD /* KeyboardState.swift */,
 				36BFF7172BF5F1B600678921 /* SearchManager.swift */,
 				36CD05302BF0C6C900418EE7 /* GetUserLocation.swift */,
 				36CD052E2BF0C6B400418EE7 /* DistanceManager.swift */,
 				36CD05342BF0C6F900418EE7 /* LocationManager.swift */,
 				36CD05322BF0C6E700418EE7 /* LoadNearbyBusStops.swift */,
+				36CD052C2BF0C69F00418EE7 /* BusStopData.json */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -180,8 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				36CD053A2BF0C74E00418EE7 /* FavoritesView.swift */,
-				36A728EC2BF64F9C0047F0DD /* SearchView.swift */,
 				36CD053C2BF0C75C00418EE7 /* NearbyListView.swift */,
+				36A728EC2BF64F9C0047F0DD /* SearchView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -198,9 +198,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36CD04F32BF0C59C00418EE7 /* MeBus-v2 */ = {
+		36CD04F32BF0C59C00418EE7 /* MeBus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36CD051D2BF0C59E00418EE7 /* Build configuration list for PBXNativeTarget "MeBus-v2" */;
+			buildConfigurationList = 36CD051D2BF0C59E00418EE7 /* Build configuration list for PBXNativeTarget "MeBus" */;
 			buildPhases = (
 				36CD04F02BF0C59C00418EE7 /* Sources */,
 				36CD04F12BF0C59C00418EE7 /* Frameworks */,
@@ -210,14 +210,14 @@
 			);
 			dependencies = (
 			);
-			name = "MeBus-v2";
+			name = MeBus;
 			productName = "MeBus-v2";
-			productReference = 36CD04F42BF0C59C00418EE7 /* MeBus-v2.app */;
+			productReference = 36CD04F42BF0C59C00418EE7 /* MeBus.app */;
 			productType = "com.apple.product-type.application";
 		};
-		36CD05082BF0C59E00418EE7 /* MeBus-v2Tests */ = {
+		36CD05082BF0C59E00418EE7 /* MeBusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36CD05202BF0C59E00418EE7 /* Build configuration list for PBXNativeTarget "MeBus-v2Tests" */;
+			buildConfigurationList = 36CD05202BF0C59E00418EE7 /* Build configuration list for PBXNativeTarget "MeBusTests" */;
 			buildPhases = (
 				36CD05052BF0C59E00418EE7 /* Sources */,
 				36CD05062BF0C59E00418EE7 /* Frameworks */,
@@ -228,14 +228,14 @@
 			dependencies = (
 				36CD050B2BF0C59E00418EE7 /* PBXTargetDependency */,
 			);
-			name = "MeBus-v2Tests";
+			name = MeBusTests;
 			productName = "MeBus-v2Tests";
-			productReference = 36CD05092BF0C59E00418EE7 /* MeBus-v2Tests.xctest */;
+			productReference = 36CD05092BF0C59E00418EE7 /* MeBusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		36CD05122BF0C59E00418EE7 /* MeBus-v2UITests */ = {
+		36CD05122BF0C59E00418EE7 /* MeBusUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36CD05232BF0C59E00418EE7 /* Build configuration list for PBXNativeTarget "MeBus-v2UITests" */;
+			buildConfigurationList = 36CD05232BF0C59E00418EE7 /* Build configuration list for PBXNativeTarget "MeBusUITests" */;
 			buildPhases = (
 				36CD050F2BF0C59E00418EE7 /* Sources */,
 				36CD05102BF0C59E00418EE7 /* Frameworks */,
@@ -246,9 +246,9 @@
 			dependencies = (
 				36CD05152BF0C59E00418EE7 /* PBXTargetDependency */,
 			);
-			name = "MeBus-v2UITests";
+			name = MeBusUITests;
 			productName = "MeBus-v2UITests";
-			productReference = 36CD05132BF0C59E00418EE7 /* MeBus-v2UITests.xctest */;
+			productReference = 36CD05132BF0C59E00418EE7 /* MeBusUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +274,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 36CD04EF2BF0C59C00418EE7 /* Build configuration list for PBXProject "MeBus-v2" */;
+			buildConfigurationList = 36CD04EF2BF0C59C00418EE7 /* Build configuration list for PBXProject "MeBus" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -287,9 +287,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36CD04F32BF0C59C00418EE7 /* MeBus-v2 */,
-				36CD05082BF0C59E00418EE7 /* MeBus-v2Tests */,
-				36CD05122BF0C59E00418EE7 /* MeBus-v2UITests */,
+				36CD04F32BF0C59C00418EE7 /* MeBus */,
+				36CD05082BF0C59E00418EE7 /* MeBusTests */,
+				36CD05122BF0C59E00418EE7 /* MeBusUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -366,12 +366,12 @@
 /* Begin PBXTargetDependency section */
 		36CD050B2BF0C59E00418EE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36CD04F32BF0C59C00418EE7 /* MeBus-v2 */;
+			target = 36CD04F32BF0C59C00418EE7 /* MeBus */;
 			targetProxy = 36CD050A2BF0C59E00418EE7 /* PBXContainerItemProxy */;
 		};
 		36CD05152BF0C59E00418EE7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 36CD04F32BF0C59C00418EE7 /* MeBus-v2 */;
+			target = 36CD04F32BF0C59C00418EE7 /* MeBus */;
 			targetProxy = 36CD05142BF0C59E00418EE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -508,11 +508,14 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MeBus-v2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MeBus;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location access is required";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location access is required";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -538,11 +541,14 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MeBus-v2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = MeBus;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location access is required";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location access is required";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -572,7 +578,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeBus-v2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeBus-v2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeBus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeBus";
 			};
 			name = Debug;
 		};
@@ -592,7 +598,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeBus-v2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeBus-v2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeBus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeBus";
 			};
 			name = Release;
 		};
@@ -635,7 +641,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		36CD04EF2BF0C59C00418EE7 /* Build configuration list for PBXProject "MeBus-v2" */ = {
+		36CD04EF2BF0C59C00418EE7 /* Build configuration list for PBXProject "MeBus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36CD051B2BF0C59E00418EE7 /* Debug */,
@@ -644,7 +650,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36CD051D2BF0C59E00418EE7 /* Build configuration list for PBXNativeTarget "MeBus-v2" */ = {
+		36CD051D2BF0C59E00418EE7 /* Build configuration list for PBXNativeTarget "MeBus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36CD051E2BF0C59E00418EE7 /* Debug */,
@@ -653,7 +659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36CD05202BF0C59E00418EE7 /* Build configuration list for PBXNativeTarget "MeBus-v2Tests" */ = {
+		36CD05202BF0C59E00418EE7 /* Build configuration list for PBXNativeTarget "MeBusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36CD05212BF0C59E00418EE7 /* Debug */,
@@ -662,7 +668,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36CD05232BF0C59E00418EE7 /* Build configuration list for PBXNativeTarget "MeBus-v2UITests" */ = {
+		36CD05232BF0C59E00418EE7 /* Build configuration list for PBXNativeTarget "MeBusUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36CD05242BF0C59E00418EE7 /* Debug */,

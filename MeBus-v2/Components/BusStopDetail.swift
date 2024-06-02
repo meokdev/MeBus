@@ -29,7 +29,7 @@ struct BusStopDetailView: View {
                                         Text(bus.serviceNo)
                                             .font(.title)
                                             .fontWeight(.bold)
-                                            .frame(width: geometry.size.width / 4)
+                                            .frame(width: geometry.size.width / 3.5)
                                         VStack {
                                             Text("Estimated:")
                                                 .font(.footnote)
@@ -73,7 +73,7 @@ struct BusStopDetailView: View {
         isLoading = true
         errorMessage = nil
         
-        let urlString = "https://busapi.shibal.online/bus-arrival/\(busStopCode)"
+        let urlString = "https://YOUR API HERE" //put address to api here, must be https
         guard let url = URL(string: urlString) else {
             self.errorMessage = "Invalid URL"
             self.isLoading = false

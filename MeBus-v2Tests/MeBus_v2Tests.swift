@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import MeBus_v2
+@testable import MeBus
 
 final class MeBus_v2Tests: XCTestCase {
 
