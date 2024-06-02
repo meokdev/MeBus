@@ -9,7 +9,7 @@ MeBus is a compact and efficient iOS application tailored for the commuters in S
 - **Favorite Bus Stops:** Allows users to save favorite bus stops for quick access.
 - **Search Bus Stops:** Search functionality to view bus timings for any bus stop.
 
-##Requirements
+## Requirements
 - Xcode
 - External server or computer for hosting API
 - Internet connection
