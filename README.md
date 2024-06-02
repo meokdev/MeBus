@@ -75,18 +75,23 @@ Here are some screenshots of the MeBus app in action:
 
 
 1. Nearby Bus Stops:
+   
    <img src="https://github.com/meokdev/MeBus/assets/62682756/6e67bdcb-d2d1-4750-afe8-47f4abbc32f1" width="300">
 
-2. Bus Arrival Times
+3. Bus Arrival Times
+
    <img src="https://github.com/meokdev/MeBus/assets/62682756/460b8ee5-ec88-418f-a48d-e9fc06b86701" width="300">
 
-3. Favorites:
+4. Favorites:
+
    <img src="https://github.com/meokdev/MeBus/assets/62682756/2b3ea914-2ab7-4eb9-ae5c-4bd807c94c20" width="300">
 
    Favorite a bus stop by swiping!
+
    <img src="https://github.com/meokdev/MeBus/assets/62682756/a8f1ec3f-4584-41b3-88ce-7af26c5eb6a7" width="300">
 
-4. Search:
+5. Search:
+
    <img src="https://github.com/meokdev/MeBus/assets/62682756/f54ea11e-ea21-4da6-986f-e6b3800abbc9" width="300">
 
 
