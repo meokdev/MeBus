@@ -66,14 +66,12 @@ The Flask API powers the app by providing data retrieved from the LTA API. Below
 - **Location:** `API/bus_api.py`
 - **Dependencies:** `Flask`, `requests`
 - **Main Functions:**
-  - Fetch nearby bus stops
   - Retrieve bus arrival times
-  - Manage user favorites
+ 
+*Note: https is required for the API to work in production. You can not use http*
+
 
 ## Images
-Here are some screenshots of the MeBus app in action:
-
-
 
    <img src="https://github.com/meokdev/MeBus/assets/62682756/6e67bdcb-d2d1-4750-afe8-47f4abbc32f1" width="300">
    <img src="https://github.com/meokdev/MeBus/assets/62682756/460b8ee5-ec88-418f-a48d-e9fc06b86701" width="300">
